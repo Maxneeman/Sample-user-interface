@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    #container{
+        width: 50%;
+        height: auto;
+        margin: auto;
+        padding: 10px;
+        line-height: 1px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: 1px solid #fff;
+        background: url(/images/jonatan.jpg) repeat center;
+        background-size: cover;
+
+        .heading{
+            text-align: center;
+            font-size: 1.5vw;
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+            font-variant: small-caps;
+        }
+
+        form{
+            input, select{
+                width: 100%;
+                margin: 5px;
+                outline: none;
+                border-radius: 4px;
+                border-width: 0px;
+                padding: 8px 12px;
+
+            }
+
+            input[type='submit']{
+                background: url(/images/jonatan.jpg);
+                background-size: cover;
+                color: #fff;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: bolder;
+                letter-spacing: 3vw;
+            }
+        }
+    }
+
+    
+
+    display: grid;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url(/images/reppe.jpg);
+    background-size: unset;
+}
